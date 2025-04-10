@@ -68,3 +68,4 @@ end
 
 gem 'dotenv-rails'
 gem "react_on_rails", "= 14.0.4"
+gem "shakapacker", "= 8.2.0"
