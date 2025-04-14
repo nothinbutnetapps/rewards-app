@@ -1,0 +1,15 @@
+.card {
+  border: solid black 2px;
+  display: flex;
+  gap: 8px;
+  padding: 24px;
+  width: 200px;
+  position: relative;
+}
+
+.cardContainer {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  flex-wrap: wrap;
+}

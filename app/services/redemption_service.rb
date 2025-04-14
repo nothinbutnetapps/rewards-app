@@ -13,7 +13,7 @@ class RedemptionService
 
       ActiveRecord::Base.transaction do
         user.update!(points: user.points - reward.price)
-        Redemption.create!(user:, reward:, price:)
+        Redemption.create!(user:, reward:, price: reward.price)
       end
     end
   end

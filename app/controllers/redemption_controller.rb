@@ -1,4 +1,4 @@
-class RewardController < ApplicationController
+class RedemptionController < ApplicationController
   def create
     redemption = RedemptionService.redeem(
       reward_id: params[:reward_id],

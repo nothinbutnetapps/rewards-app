@@ -4,6 +4,31 @@
 #
 # Example:
 #
-#   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
+#   ['Action', 'Comedy', 'Drama', 'Horror'].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+[
+  'Car',
+  'Vacation Package',
+  'Gift Card',
+  'Smartphone',
+  'Laptop',
+  'Television',
+  'Bicycle',
+  'Concert Tickets',
+  'Dinner for Two',
+  'Spa Day',
+  'Home Appliance',
+  'Fitness Tracker',
+  'Book Collection',
+  'Headphones',
+  'Gaming Console',
+  'Camera',
+  'Jewelry',
+  'Sports Equipment',
+  'Subscription Box',
+  'Cash Prize'
+].each do |reward| 
+  Reward.create(name: reward, price: rand(1..100))
+end

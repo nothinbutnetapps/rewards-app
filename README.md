@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## How to run the app
 
-Things you may want to cover:
+It's already linked with a DB in a Supabase project, so there's no need to spin up a local db instance
 
-* Ruby version
+Just run the following:
+npm install
+bundle install
+./bin/dev
 
-* System dependencies
+Then go to http://127.0.0.1:3000/
 
-* Configuration
+## Using the app
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+A new user is created the first time using the app and is stored to localstorage
+If you want to try it with another user, just open the app in a new incognito window
