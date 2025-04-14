@@ -5,9 +5,9 @@
 Make sure you have a .env in the root directory providing the DATABASE_URL. If you use the url I've provided then it will be linked to a DB in a Supabase project, so there's no need to spin up a local db instance
 
 Just run the following:
-npm install
-bundle install
-./bin/dev
+1. `npm install`
+2. `bundle install`
+3. `./bin/dev`
 
 Then go to http://127.0.0.1:3000/
 
