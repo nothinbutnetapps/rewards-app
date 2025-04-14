@@ -2,7 +2,7 @@
 
 ## How to run the app
 
-It's already linked with a DB in a Supabase project, so there's no need to spin up a local db instance
+Make sure you have a .env in the root directory providing the DATABASE_URL. If you use the url I've provided then it will be linked to a DB in a Supabase project, so there's no need to spin up a local db instance
 
 Just run the following:
 npm install
